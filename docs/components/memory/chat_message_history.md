@@ -1,0 +1,6 @@
+
+# 记录聊天历史 ChatMessageHistory
+
+目前，与语言模型的主要接口是通过聊天界面进行的。ChatMessageHistory类负责记录所有先前的聊天互动。然后，可以直接将它们传递回模型，以某种方式进行总结，或者进行某种组合。
+
+ChatMessageHistory提供了两个方法和一个属性。它提供的两个方法是add_user_message和add_ai_message，用于分别存储来自用户的消息和AI的响应。它提供的属性是messages属性，用于访问所有先前的消息。
