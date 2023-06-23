@@ -102,6 +102,7 @@ const config = {
         pages: {
           remarkPlugins: [require("@docusaurus/remark-plugin-npm2yarn")],
         },
+        blog: false,
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
